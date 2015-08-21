@@ -1,0 +1,3781 @@
+Job Id-> (0001_1) : ERROR(107): Invalid module format.
+ERROR(129): Invalid //JOB tag :  //JOB 0002
+ERROR(137): Missing //JOB tag.
+Job Id-> (0004_2) : ERROR(135): Input request size and actual size missmatch.
+Job Id-> (0005_3) WARNING: Invalid trace switch. Tracefile will not be generated.
+Job Id-> (0007_5) : ERROR(136): Missing //END tag.
+Job Id-> (0009_6) : ERROR(107): Invalid module format.
+User Job id:000A, System Job id:7, Loaded at: 90(DEC) VTS
+Job Id-> (000D_10) : ERROR(135): Input request size and actual size missmatch.
+Job Id-> (000E_11) : ERROR(123): Incorrect Module format. Invalid instruction.
+Job Id-> (000F_12) : ERROR(114): Incorrect Module format. Program start address not in HEX.
+Job Id-> (0010_13) : ERROR(108): Field 1 is not 2 digit Hex number.
+User Job id:0011, System Job id:14, Loaded at: 150(DEC) VTS
+ERROR(129): Invalid //JOB tag :  //JOB 0014 06
+Job Id-> (0016_18) : ERROR(141): Program segment missing for this job.
+ERROR(137): Missing //JOB tag.
+User Job id:0018, System Job id:19, Loaded at: 195(DEC) VTS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Running Job : 0005_3
+Ready queue : 
+0006_4 | 000A_7 | 000B_8 | 000C_9 | 0011_14 | 0012_15 | 0013_16 | 0015_17 | 0018_19 | 
+Blocked queue : 
+
+Free Blocks: 
+	Addr 	|	Size(bytes)
+	 2104	|	14280
+Occupied Blocks: 
+	Addr 	|	Size(bytes)
+	   64	|	2040
+Current degree of multiprogramming: 10
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------------------------------------------
+Job Id : 0006_4
+Clock: 943 (DEC)
+Execution Time: 92 (DEC)
+TAT: 883 (DEC)
+ERROR(138): Attempt to write beyond end of output segment
+Memory Executable segment (HEX): 
+	81001800
+	0F011804
+	4200001C
+	28000A00
+	0701180C
+	85001810
+	43C00004
+	23011800
+	81001800
+	30000800
+	30000804
+	23028800
+	23030804
+	0F01181C
+	42000058
+	0701180C
+	07029818
+	22001814
+	30001000
+	23029818
+	23031000
+	43C00034
+	FF00000F
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000000
+	00000001
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000002
+	00000000
+	00000001
+	00000004
+	00000000
+	00000000
+	0000000A
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0005_3
+Clock: 971 (DEC)
+Execution Time: 120 (DEC)
+TAT: 911 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	23010800
+	13011800
+	42000030
+	23021808
+	1F021804
+	23029810
+	1B029814
+	1B029810
+	07019814
+	17011804
+	43C00008
+	1100180C
+	42000044
+	22001800
+	30001000
+	FC000000
+	22001818
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000012
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	0000000A
+	00000000
+	00000201
+	00000001
+	00000001
+	00000001
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+Job Id-> (001A_21) WARNING: Invalid trace switch. Tracefile will not be generated.
+---------------------------------------------------
+Job Id : 0018_19
+Clock: 971 (DEC)
+Execution Time: 81 (DEC)
+TAT: 776 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	28000804
+	0D001800
+	4300003C
+	0D009800
+	4300003C
+	23010800
+	C7010002
+	23018804
+	1B019804
+	17011804
+	0701180C
+	22001808
+	30001000
+	FC000000
+	22001800
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	00000019
+	0000001e
+Memory Output segment (HEX): 
+	0000006e
+Work Area segment (HEX): 
+	00000000
+	00000002
+	0000006e
+	0000003c
+Disk Output (DEC) : 
+	110
+---------------------------------------------------
+Job Id-> (001C_22) : ERROR(136): Missing //END tag.
+WARNING: Given Max degree is greater than 16. Max degree is set to 16.
+Job Id-> (001E_23) : ERROR(109): Field 1 is not Hex number.
+Job Id-> (001F_24) : ERROR(109): Field 1 is not Hex number.
+Job Id-> (0020_25) : ERROR(123): Incorrect Module format. Invalid instruction.
+User Job id:0021, System Job id:26, Loaded at: 1031(DEC) VTS
+Job Id-> (0023_28) : ERROR(143): Invalid or missing //DATA tag.
+ERROR(137): Missing //JOB tag.
+Job Id-> (0025_29) : ERROR(130): Improper JOB tag structure. Skipping till next JOB tag.
+Job Id-> (0027_31) : ERROR(136): Missing //END tag.
+Job Id-> (0029_32) : ERROR(110): Field 2 must be of same length as specified in Field 1.
+User Job id:002A, System Job id:33, Loaded at: 1106(DEC) VTS
+Job Id-> (002B_34) : ERROR(135): Input request size and actual size missmatch.
+---------------------------------------------------
+Job Id : 0013_16
+Clock: 1195 (DEC)
+Execution Time: 120 (DEC)
+TAT: 1045 (DEC)
+Memory Executable segment (HEX): 
+	00000000
+	28000800
+	23008800
+	23010800
+	0F009800
+	43000024
+	2F009800
+	1B011804
+	43C00010
+	0F009800
+	42000030
+	23011800
+	22001808
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	00000005
+	null
+Memory Output segment (HEX): 
+	00000078
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000001
+	00000001
+	00000078
+	null
+Disk Output (DEC) : 
+	120
+---------------------------------------------------
+Job Id-> (002F_38) : ERROR(107): Invalid module format.
+User Job id:0030, System Job id:39, Loaded at: 1210(DEC) VTS
+---------------------------------------------------
+Job Id : 000A_7
+Clock: 1514 (DEC)
+Execution Time: 120 (DEC)
+TAT: 1424 (DEC)
+Memory Executable segment (HEX): 
+	00000000
+	28000800
+	23008800
+	23010800
+	0F009800
+	43000024
+	2F009800
+	1B011804
+	43C00010
+	0F009800
+	42000030
+	23011800
+	22001808
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	00000005
+	null
+Memory Output segment (HEX): 
+	00000078
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000001
+	00000001
+	00000078
+	null
+Disk Output (DEC) : 
+	120
+---------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Running Job : 0026_30
+Ready queue : 
+0015_17 | 002C_35 | 002D_36 | 002E_37 | 000C_9 | 0019_20 | 0011_14 | 001A_21 | 000B_8 | 0022_27 | 0012_15 | 002A_33 | 0021_26 | 0030_39 | 
+Blocked queue : 
+
+Free Blocks: 
+	Addr 	|	Size(bytes)
+	  592	|	100
+	 1824	|	4
+	 3424	|	12960
+Occupied Blocks: 
+	Addr 	|	Size(bytes)
+	   64	|	528
+	  692	|	1132
+	 1828	|	1596
+Current degree of multiprogramming: 10
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------------------------------------------
+Job Id : 0026_30
+Clock: 2557 (DEC)
+Execution Time: 120 (DEC)
+TAT: 1481 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	23010800
+	13011800
+	42000030
+	23021808
+	1F021804
+	23029810
+	1B029814
+	1B029810
+	07019814
+	17011804
+	43C00008
+	1100180C
+	42000044
+	22001800
+	30001000
+	FC000000
+	22001818
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000012
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	0000000A
+	00000000
+	00000201
+	00000001
+	00000001
+	00000001
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 002D_36
+Clock: 2687 (DEC)
+Execution Time: 92 (DEC)
+TAT: 1566 (DEC)
+ERROR(138): Attempt to write beyond end of output segment
+Memory Executable segment (HEX): 
+	81001800
+	0F011804
+	4200001C
+	28000A00
+	0701180C
+	85001810
+	43C00004
+	23011800
+	81001800
+	30000800
+	30000804
+	23028800
+	23030804
+	0F01181C
+	42000058
+	0701180C
+	07029818
+	22001814
+	30001000
+	23029818
+	23031000
+	43C00034
+	FF00000F
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000000
+	00000001
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000002
+	00000000
+	00000001
+	00000004
+	00000000
+	00000000
+	0000000A
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0019_20
+Clock: 2709 (DEC)
+Execution Time: 120 (DEC)
+TAT: 1766 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	23010800
+	13011800
+	42000030
+	23021808
+	1F021804
+	23029810
+	1B029814
+	1B029810
+	07019814
+	17011804
+	43C00008
+	1100180C
+	42000044
+	22001800
+	30001000
+	FC000000
+	22001818
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000012
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	0000000A
+	00000000
+	00000201
+	00000001
+	00000001
+	00000001
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0012_15
+Clock: 2803 (DEC)
+Execution Time: 322 (DEC)
+TAT: 2653 (DEC)
+ERROR(142): Insufficient inputs provided to this job.
+Memory Executable segment (HEX): 
+	0D009808
+	43000010
+	23010804
+	43C0004C
+	0D00980C
+	4280004C
+	23018804
+	43C0004C
+	28000800
+	0D001800
+	43000058
+	28000804
+	23010804
+	23018804
+	2D001804
+	0D001800
+	43000064
+	28000804
+	43C00000
+	2D001804
+	0D001800
+	40800044
+	43C00068
+	22011800
+	30001008
+	FC000000
+	22001808
+	2200980C
+	30001000
+	30001004
+	FC000000
+ Memory Input segment (HEX): 
+	00000002
+	00000022
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000001
+	00000029
+	00000005
+Disk Output (DEC) : 
+	0
+	0
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 001A_21
+Clock: 2965 (DEC)
+Execution Time: 104 (DEC)
+TAT: 1994 (DEC)
+Memory Executable segment (HEX): 
+	00000000
+	28000800
+	23008800
+	23010800
+	0F009800
+	43000024
+	2F009800
+	1B011804
+	43C00010
+	0F009800
+	42000030
+	23011800
+	22001808
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	00000004
+	null
+Memory Output segment (HEX): 
+	00000018
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000001
+	00000001
+	00000018
+	null
+Disk Output (DEC) : 
+	24
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 002E_37
+Clock: 3070 (DEC)
+Execution Time: 120 (DEC)
+TAT: 1949 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	23010800
+	13011800
+	42000030
+	23021808
+	1F021804
+	23029810
+	1B029814
+	1B029810
+	07019814
+	17011804
+	43C00008
+	1100180C
+	42000044
+	22001800
+	30001000
+	FC000000
+	22001818
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000012
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	0000000A
+	00000000
+	00000201
+	00000001
+	00000001
+	00000001
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 002A_33
+Clock: 3105 (DEC)
+Execution Time: 154 (DEC)
+TAT: 1999 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	0D001800
+	40800018
+	22001800
+	30001000
+	FC000000
+	23008800
+	07019804
+	07009808
+	0F009800
+	4080001C
+	2200180C
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	00000008
+Memory Output segment (HEX): 
+	00000024
+Work Area segment (HEX): 
+	00000000
+	00000000
+	FFFFFFFF
+	00000024
+Disk Output (DEC) : 
+	36
+---------------------------------------------------
+Job Id-> (0032_41) : ERROR(107): Invalid module format.
+Job Id-> (0033_42) : ERROR(143): Invalid or missing //DATA tag.
+---------------------------------------------------
+Job Id : 000C_9
+Clock: 3203 (DEC)
+Execution Time: 490 (DEC)
+TAT: 3113 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	0D001800
+	40800018
+	22001800
+	30001000
+	FC000000
+	23008800
+	07019804
+	07009808
+	0F009800
+	4080001C
+	2200180C
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	00000020
+Memory Output segment (HEX): 
+	00000210
+Work Area segment (HEX): 
+	00000000
+	00000000
+	FFFFFFFF
+	00000210
+Disk Output (DEC) : 
+	528
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0011_14
+Clock: 3260 (DEC)
+Execution Time: 303 (DEC)
+TAT: 3110 (DEC)
+ERROR(116): Attempt to read beyond end of input.
+Memory Executable segment (HEX): 
+	81001800
+	0F02180C
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	23021800
+	23029800
+	81001800
+	0F02180C
+	42000084
+	0F021800
+	4080007C
+	23029810
+	07029804
+	07021804
+	23031814
+	1B031808
+	82001818
+	0F02980C
+	42000028
+	0D800A00
+	4100006C
+	07029804
+	86001808
+	43C00050
+	23038A00
+	21400C00
+	2180181C
+	43C00060
+	85001808
+	43C00038
+	23021800
+	81001800
+	0F02180C
+	420000A8
+	22400A00
+	30001200
+	07021804
+	85001808
+	43C0008C
+	FC000000
+	null
+ Memory Input segment (HEX): 
+	00000009
+	00000006
+	00000004
+	00000002
+	00000003
+	0000000a
+	00000008
+	00000005
+	00000000
+	0000000f
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000000
+	00000004
+	0000000A
+	00000000
+	00000000
+	00000000
+	00000000
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+---------------------------------------------------
+Job Id-> (0036_45) : ERROR(141): Program segment missing for this job.
+User Job id:0037, System Job id:46, Loaded at: 3275(DEC) VTS
+---------------------------------------------------
+Job Id : 0021_26
+Clock: 3275 (DEC)
+Execution Time: 134 (DEC)
+TAT: 2244 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	28000804
+	07021800
+	23029810
+	23019804
+	07018804
+	2F029800
+	0F029804
+	40800014
+	0701180C
+	0F020800
+	42000038
+	07021800
+	43C0000C
+	22001808
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	00000002
+	00000003
+Memory Output segment (HEX): 
+	00000009
+Work Area segment (HEX): 
+	00000001
+	00000000
+	00000009
+	00000006
+	00000002
+	00000000
+Disk Output (DEC) : 
+	9
+---------------------------------------------------
+Job Id-> (0038_47) : ERROR(130): Improper JOB tag structure. Skipping till next JOB tag.
+Job Id-> (0039_48) : ERROR(136): Missing //END tag.
+ERROR(137): Missing //JOB tag.
+---------------------------------------------------
+Job Id : 0022_27
+Clock: 3481 (DEC)
+Execution Time: 120 (DEC)
+TAT: 2450 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	23010800
+	13011800
+	42000030
+	23021808
+	1F021804
+	23029810
+	1B029814
+	1B029810
+	07019814
+	17011804
+	43C00008
+	1100180C
+	42000044
+	22001800
+	30001000
+	FC000000
+	22001818
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000012
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	0000000A
+	00000000
+	00000201
+	00000001
+	00000001
+	00000001
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+Job Id-> (003C_50) : ERROR(141): Program segment missing for this job.
+Job Id-> (003D_51) : ERROR(107): Invalid module format.
+User Job id:003E, System Job id:52, Loaded at: 3511(DEC) VTS
+---------------------------------------------------
+Job Id : 0015_17
+Clock: 3538 (DEC)
+Execution Time: 473 (DEC)
+TAT: 3373 (DEC)
+Memory Executable segment (HEX): 
+	81001820
+	23401A0C
+	28000800
+	23408800
+	0F401804
+	42000624
+	1B409A04
+	07401800
+	43C00010
+	00000000
+	2F401804
+	0F40180C
+	40800248
+	23411A04
+	17411808
+	22001A08
+	30001000
+	1B411808
+	2F409A08
+	CF010001
+	07401800
+	43C0002C
+	00000000
+	FC000000
+ Memory Input segment (HEX): 
+	fffffffd
+	null
+Memory Output segment (HEX): 
+	00000001
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000001
+	00000002
+	00000000
+	00000007
+	00000008
+	00000000
+	00000001
+	00000000
+	00000010
+Disk Output (DEC) : 
+	0
+	1
+	0
+	1
+	0
+	0
+	0
+	1
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0031_40
+Clock: 3638 (DEC)
+Execution Time: 24 (DEC)
+TAT: 553 (DEC)
+ERROR(120): Invalid Opcode.
+Memory Executable segment (HEX): 
+	28000800
+	23010800
+	13011800
+	42000030
+	F3021808
+	1F021804
+	23029810
+	1B029814
+	1B029810
+	07019814
+	17011804
+	43C00008
+	1100180C
+	42000044
+	22001800
+	30001000
+	FC000000
+	22001818
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000012
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	0000000A
+	00000012
+	00000000
+	00000000
+	00000000
+	00000001
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+Job Id-> (0040_54) : ERROR(136): Missing //END tag.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Running Job : 0035_44
+Ready queue : 
+002C_35 | 0034_43 | 0042_55 | 003E_52 | 003F_53 | 0030_39 | 0037_46 | 000B_8 | 
+Blocked queue : 
+003B_49 | 
+Free Blocks: 
+	Addr 	|	Size(bytes)
+	  156	|	4
+	  272	|	48
+	  540	|	32
+	 1396	|	52
+	 1704	|	24
+	 2000	|	52
+	 2244	|	44
+	 2704	|	464
+	 3424	|	12960
+Occupied Blocks: 
+	Addr 	|	Size(bytes)
+	   64	|	92
+	  160	|	112
+	  320	|	220
+	  572	|	824
+	 1448	|	256
+	 1728	|	272
+	 2052	|	192
+	 2288	|	416
+	 3168	|	256
+Current degree of multiprogramming: 10
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------------------------------------------
+Job Id : 002C_35
+Clock: 4239 (DEC)
+Execution Time: 280 (DEC)
+TAT: 3118 (DEC)
+Memory Executable segment (HEX): 
+	8100180C
+	0F021800
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	2302180C
+	8100180C
+	0F021800
+	4200003C
+	1B028A00
+	07021804
+	85001808
+	43C00024
+	22001814
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000002
+	00000013
+	00000004
+	0000000b
+	00000006
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00002730
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000005
+	00000001
+	00000004
+	00000000
+	00000005
+	00002730
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	10032
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0034_43
+Clock: 4258 (DEC)
+Execution Time: 92 (DEC)
+TAT: 1123 (DEC)
+ERROR(138): Attempt to write beyond end of output segment
+Memory Executable segment (HEX): 
+	81001800
+	0F011804
+	4200001C
+	28000A00
+	0701180C
+	85001810
+	43C00004
+	23011800
+	81001800
+	30000800
+	30000804
+	23028800
+	23030804
+	0F01181C
+	42000058
+	0701180C
+	07029818
+	22001814
+	30001000
+	23029818
+	23031000
+	43C00034
+	FF00000F
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000000
+	00000001
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000002
+	00000000
+	00000001
+	00000004
+	00000000
+	00000000
+	0000000A
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+Job Id-> (0044_57) : ERROR(107): Invalid module format.
+User Job id:0045, System Job id:58, Loaded at: 4273(DEC) VTS
+---------------------------------------------------
+Job Id : 000B_8
+Clock: 4422 (DEC)
+Execution Time: 575 (DEC)
+TAT: 4332 (DEC)
+Memory Executable segment (HEX): 
+	81001810
+	23401800
+	8200980C
+	28000800
+	23408800
+	28000800
+	23800800
+	07401804
+	86001808
+	0F401A04
+	41000014
+	28000800
+	23410800
+	8200180C
+	23401800
+	07401804
+	0F411C00
+	42000058
+	86001808
+	0F401A04
+	4100003C
+	23401800
+	22001A00
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	ab000c00
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000001
+	00000004
+	0000003C
+	00000020
+	null
+	null
+	null
+	00000000
+	0000000a
+	ab000c00
+	null
+	null
+	null
+	null
+	00000002
+	00000001
+	00000003
+	00000004
+	00000005
+	0000001c
+	ab000d00
+	ce000f00
+	00d00b00
+	0ef00281
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+Job Id-> (0046_59) : ERROR(136): Missing //END tag.
+---------------------------------------------------
+Job Id : 0035_44
+Clock: 4668 (DEC)
+Execution Time: 120 (DEC)
+TAT: 1465 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	23010800
+	13011800
+	42000030
+	23021808
+	1F021804
+	23029810
+	1B029814
+	1B029810
+	07019814
+	17011804
+	43C00008
+	1100180C
+	42000044
+	22001800
+	30001000
+	FC000000
+	22001818
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000012
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	0000000A
+	00000000
+	00000201
+	00000001
+	00000001
+	00000001
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+Job Id-> (0049_61) : ERROR(107): Invalid module format.
+---------------------------------------------------
+Job Id : 003E_52
+Clock: 4891 (DEC)
+Execution Time: 140 (DEC)
+TAT: 1380 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	0D001810
+	42000028
+	0F000800
+	42000028
+	23011804
+	0700980C
+	23019808
+	07001810
+	43C0000C
+	22001804
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	00000005
+	null
+Memory Output segment (HEX): 
+	00000005
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000005
+	00000005
+	00000003
+	00000003
+	00000001
+	null
+	null
+	null
+Disk Output (DEC) : 
+	5
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0030_39
+Clock: 5130 (DEC)
+Execution Time: 590 (DEC)
+TAT: 3920 (DEC)
+ERROR(138): Attempt to write beyond end of output segment
+Memory Executable segment (HEX): 
+	8100180C
+	0F021800
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	2302180C
+	8100180C
+	0F021800
+	42000044
+	23030A00
+	1B031818
+	07029818
+	07021804
+	85001808
+	43C00024
+	22001814
+	30001000
+	17029810
+	22001814
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000003
+	00000003
+	00000004
+	00000005
+	0000000b
+	00000007
+	00000008
+	00000009
+	0000000a
+	0000000c
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	0000026a
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	0000000A
+	00000001
+	00000004
+	00000000
+	0000000a
+	0000026a
+	00000090
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+---------------------------------------------------
+Job Id-> (004A_62) WARNING: Invalid trace switch. Tracefile will not be generated.
+---------------------------------------------------
+Job Id : 0042_55
+Clock: 5256 (DEC)
+Execution Time: 164 (DEC)
+TAT: 1603 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	0D001810
+	42000028
+	0F000800
+	42000028
+	23011804
+	0700980C
+	23019808
+	07001810
+	43C0000C
+	22001804
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	00000006
+	null
+Memory Output segment (HEX): 
+	00000008
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000006
+	00000008
+	00000005
+	00000005
+	00000001
+	null
+	null
+	null
+Disk Output (DEC) : 
+	8
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 003F_53
+Clock: 5709 (DEC)
+Execution Time: 303 (DEC)
+TAT: 2171 (DEC)
+ERROR(116): Attempt to read beyond end of input.
+Memory Executable segment (HEX): 
+	81001800
+	0F02180C
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	23021800
+	23029800
+	81001800
+	0F02180C
+	42000084
+	0F021800
+	4080007C
+	23029810
+	07029804
+	07021804
+	23031814
+	1B031808
+	82001818
+	0F02980C
+	42000028
+	0D800A00
+	4100006C
+	07029804
+	86001808
+	43C00050
+	23038A00
+	21400C00
+	2180181C
+	43C00060
+	85001808
+	43C00038
+	23021800
+	81001800
+	0F02180C
+	420000A8
+	22400A00
+	30001200
+	07021804
+	85001808
+	43C0008C
+	FC000000
+	null
+ Memory Input segment (HEX): 
+	00000009
+	00000006
+	00000004
+	00000002
+	00000003
+	0000000a
+	00000008
+	00000005
+	00000000
+	0000000f
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000000
+	00000004
+	0000000A
+	00000000
+	00000000
+	00000000
+	00000000
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+---------------------------------------------------
+User Job id:004C, System Job id:64, Loaded at: 5709(DEC) VTS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Running Job : 0043_56
+Ready queue : 
+003B_49 | 004C_64 | 004B_63 | 004A_62 | 0048_60 | 0037_46 | 0045_58 | 
+Blocked queue : 
+
+Free Blocks: 
+	Addr 	|	Size(bytes)
+	  144	|	16
+	  240	|	32
+	  640	|	44
+	 1012	|	52
+	 2004	|	48
+	 2628	|	76
+	 2932	|	13452
+Occupied Blocks: 
+	Addr 	|	Size(bytes)
+	   64	|	80
+	  160	|	80
+	  272	|	368
+	  684	|	328
+	 1064	|	940
+	 2052	|	576
+	 2704	|	228
+Current degree of multiprogramming: 8
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------------------------------------------
+Job Id : 003B_49
+Clock: 6264 (DEC)
+Execution Time: 405 (DEC)
+TAT: 2944 (DEC)
+Memory Executable segment (HEX): 
+	81001810
+	23401800
+	8200980C
+	28000800
+	23408800
+	28000800
+	23800800
+	07401804
+	86001808
+	0F401A04
+	41000014
+	28000800
+	23410800
+	8200180C
+	23401800
+	07401804
+	0F411C00
+	42000058
+	86001808
+	0F401A04
+	4100003C
+	23401800
+	22001A00
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	11000d00
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000005
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000001
+	00000004
+	0000003C
+	00000020
+	null
+	null
+	null
+	00000005
+	00000008
+	11000d00
+	null
+	null
+	null
+	null
+	00000003
+	00000004
+	00000005
+	0000001c
+	11000d00
+	ce000f00
+	00d00b00
+	0ef00281
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	5
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 004B_63
+Clock: 6300 (DEC)
+Execution Time: 156 (DEC)
+TAT: 1044 (DEC)
+ERROR(142): Insufficient inputs provided to this job.
+Memory Executable segment (HEX): 
+	81001810
+	23401800
+	8200980C
+	28000800
+	23408800
+	28000800
+	23800800
+	07401804
+	86001808
+	0F401A04
+	41000014
+	28000800
+	23410800
+	8200180C
+	23401800
+	07401804
+	0F411C00
+	42000058
+	86001808
+	0F401A04
+	4100003C
+	23401800
+	22001A00
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	11000d00
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000001
+	00000004
+	0000003C
+	00000020
+	null
+	null
+	null
+	00000004
+	00000008
+	null
+	null
+	null
+	null
+	null
+	ce000f00
+	00d00b00
+	0ef00281
+	11000d00
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+Job Id-> (004E_66) : ERROR(107): Invalid module format.
+---------------------------------------------------
+Job Id : 0037_46
+Clock: 6334 (DEC)
+Execution Time: 473 (DEC)
+TAT: 3059 (DEC)
+Memory Executable segment (HEX): 
+	81001820
+	23401A0C
+	28000800
+	23408800
+	0F401804
+	42000624
+	1B409A04
+	07401800
+	43C00010
+	00000000
+	2F401804
+	0F40180C
+	40800248
+	23411A04
+	17411808
+	22001A08
+	30001000
+	1B411808
+	2F409A08
+	CF010001
+	07401800
+	43C0002C
+	00000000
+	FC000000
+ Memory Input segment (HEX): 
+	fffffffd
+	null
+Memory Output segment (HEX): 
+	00000001
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000001
+	00000002
+	00000000
+	00000007
+	00000008
+	00000000
+	00000001
+	00000000
+	00000010
+Disk Output (DEC) : 
+	0
+	1
+	0
+	1
+	0
+	0
+	0
+	1
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0043_56
+Clock: 6375 (DEC)
+Execution Time: 280 (DEC)
+TAT: 2136 (DEC)
+Memory Executable segment (HEX): 
+	8100180C
+	0F021800
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	2302180C
+	8100180C
+	0F021800
+	4200003C
+	1B028A00
+	07021804
+	85001808
+	43C00024
+	22001814
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	0000000a
+	00000008
+	00000002
+	00000005
+	00000004
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000c80
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000005
+	00000001
+	00000004
+	00000000
+	00000005
+	00000c80
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	3200
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 004F_67
+Clock: 7023 (DEC)
+Execution Time: 120 (DEC)
+TAT: 708 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	23010800
+	13011800
+	42000030
+	23021808
+	1F021804
+	23029810
+	1B029814
+	1B029810
+	07019814
+	17011804
+	43C00008
+	1100180C
+	42000044
+	22001800
+	30001000
+	FC000000
+	22001818
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000012
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	0000000A
+	00000000
+	00000201
+	00000001
+	00000001
+	00000001
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+Job Id-> (0052_70) : ERROR(136): Missing //END tag.
+User Job id:0053, System Job id:71, Loaded at: 7038(DEC) VTS
+---------------------------------------------------
+Job Id : 0051_69
+Clock: 7998 (DEC)
+Execution Time: 120 (DEC)
+TAT: 1623 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	23010800
+	13011800
+	42000030
+	23021808
+	1F021804
+	23029810
+	1B029814
+	1B029810
+	07019814
+	17011804
+	43C00008
+	1100180C
+	42000044
+	22001800
+	30001000
+	FC000000
+	22001818
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000012
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	0000000A
+	00000000
+	00000201
+	00000001
+	00000001
+	00000001
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+Job Id-> (0054_72) WARNING: Invalid trace switch. Tracefile will not be generated.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Running Job : 0048_60
+Ready queue : 
+0053_71 | 0045_58 | 0050_68 | 004C_64 | 004A_62 | 0054_72 | 004D_65 | 
+Blocked queue : 
+
+Free Blocks: 
+	Addr 	|	Size(bytes)
+	  272	|	32
+	  640	|	52
+	 1272	|	60
+	 2132	|	48
+	 2628	|	13756
+Occupied Blocks: 
+	Addr 	|	Size(bytes)
+	   64	|	208
+	  304	|	336
+	  692	|	580
+	 1332	|	800
+	 2180	|	448
+Current degree of multiprogramming: 8
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Running Job : 004A_62
+Ready queue : 
+0048_60 | 004D_65 | 0045_58 | 0050_68 | 004C_64 | 0054_72 | 
+Blocked queue : 
+0053_71 | 
+Free Blocks: 
+	Addr 	|	Size(bytes)
+	  272	|	32
+	  640	|	52
+	 1272	|	60
+	 2132	|	48
+	 2628	|	13756
+Occupied Blocks: 
+	Addr 	|	Size(bytes)
+	   64	|	208
+	  304	|	336
+	  692	|	580
+	 1332	|	800
+	 2180	|	448
+Current degree of multiprogramming: 8
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------------------------------------------
+Job Id : 0050_68
+Clock: 10681 (DEC)
+Execution Time: 575 (DEC)
+TAT: 4347 (DEC)
+Memory Executable segment (HEX): 
+	81001810
+	23401800
+	8200980C
+	28000800
+	23408800
+	28000800
+	23800800
+	07401804
+	86001808
+	0F401A04
+	41000014
+	28000800
+	23410800
+	8200180C
+	23401800
+	07401804
+	0F411C00
+	42000058
+	86001808
+	0F401A04
+	4100003C
+	23401800
+	22001A00
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	ab000c00
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000001
+	00000004
+	0000003C
+	00000020
+	null
+	null
+	null
+	00000000
+	0000000a
+	ab000c00
+	null
+	null
+	null
+	null
+	00000002
+	00000001
+	00000003
+	00000004
+	00000005
+	0000001c
+	ab000d00
+	ce000f00
+	00d00b00
+	0ef00281
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0053_71
+Clock: 11170 (DEC)
+Execution Time: 473 (DEC)
+TAT: 4132 (DEC)
+Memory Executable segment (HEX): 
+	81001820
+	23401A0C
+	28000800
+	23408800
+	0F401804
+	42000624
+	1B409A04
+	07401800
+	43C00010
+	00000000
+	2F401804
+	0F40180C
+	40800248
+	23411A04
+	17411808
+	22001A08
+	30001000
+	1B411808
+	2F409A08
+	CF010001
+	07401800
+	43C0002C
+	00000000
+	FC000000
+ Memory Input segment (HEX): 
+	fffffffd
+	null
+Memory Output segment (HEX): 
+	00000001
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000001
+	00000002
+	00000000
+	00000007
+	00000008
+	00000000
+	00000001
+	00000000
+	00000010
+Disk Output (DEC) : 
+	0
+	1
+	0
+	1
+	0
+	0
+	0
+	1
+---------------------------------------------------
+Job Id-> (0056_74) : ERROR(130): Improper JOB tag structure. Skipping till next JOB tag.
+---------------------------------------------------
+Job Id : 0055_73
+Clock: 11607 (DEC)
+Execution Time: 32 (DEC)
+TAT: 911 (DEC)
+ERROR(119): Attempt to divide by zero.
+Memory Executable segment (HEX): 
+	28000800
+	23010800
+	13011800
+	42000030
+	23021808
+	1F021804
+	23029810
+	1B029814
+	1B029810
+	07019814
+	17011804
+	43C00008
+	1100180C
+	42000044
+	22001800
+	30001000
+	FC000000
+	22001818
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000012
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000000
+	00000012
+	00000000
+	00000012
+	00000000
+	00000001
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 004D_65
+Clock: 11688 (DEC)
+Execution Time: 742 (DEC)
+TAT: 5424 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	0D001800
+	40800018
+	22001800
+	30001000
+	FC000000
+	23008800
+	07019804
+	07009808
+	0F009800
+	4080001C
+	2200180C
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	00000032
+Memory Output segment (HEX): 
+	000004fb
+Work Area segment (HEX): 
+	00000000
+	00000000
+	FFFFFFFF
+	000004fb
+Disk Output (DEC) : 
+	1275
+---------------------------------------------------
+User Job id:0059, System Job id:77, Loaded at: 11688(DEC) VTS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Running Job : 0058_76
+Ready queue : 
+0057_75 | 0045_58 | 004C_64 | 0054_72 | 0059_77 | 004A_62 | 0048_60 | 
+Blocked queue : 
+
+Free Blocks: 
+	Addr 	|	Size(bytes)
+	  232	|	8
+	  672	|	20
+	 1076	|	32
+	 1316	|	16
+	 2132	|	48
+	 2756	|	13628
+Occupied Blocks: 
+	Addr 	|	Size(bytes)
+	   64	|	168
+	  240	|	432
+	  692	|	384
+	 1108	|	208
+	 1332	|	800
+	 2180	|	576
+Current degree of multiprogramming: 7
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------------------------------------------
+Job Id : 0048_60
+Clock: 13030 (DEC)
+Execution Time: 1325 (DEC)
+TAT: 8593 (DEC)
+Memory Executable segment (HEX): 
+	8100180C
+	0F021800
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	2302180C
+	8100180C
+	0F021800
+	42000044
+	0F030A00
+	42000040
+	07021804
+	85001808
+	43C00024
+	23029810
+	22001814
+	CA000009
+	C2000009
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	b0ed723b
+	e886c92d
+	26ce254e
+	1e3c5623
+	64b15c52
+	6950539d
+	4752cb06
+	25619961
+	4b11f0ef
+	7ffd35c8
+	e1d28976
+	b0123d47
+	fb29fe15
+	5598c07c
+	4e269e19
+	5467f474
+	cdeddd99
+	d872457f
+	ea1832e5
+	07eaa010
+	ffc96969
+	9bb0b27f
+	d5c1a355
+	8c05199f
+	c1e45e08
+	7d57a812
+	287d1992
+	2d96ce2c
+	195ca746
+	b99a5976
+	null
+	null
+Memory Output segment (HEX): 
+	00000013
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	0000001E
+	00000001
+	00000004
+	00000000
+	00000013
+	00000013
+	07EAA010
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	19
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0057_75
+Clock: 13495 (DEC)
+Execution Time: 136 (DEC)
+TAT: 2310 (DEC)
+Memory Executable segment (HEX): 
+	00000000
+	28000800
+	23008800
+	23010800
+	0F009800
+	43000024
+	2F009800
+	1B011804
+	43C00010
+	0F009800
+	42000030
+	23011800
+	22001808
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	00000006
+	null
+Memory Output segment (HEX): 
+	000002d0
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000001
+	00000001
+	000002d0
+	null
+Disk Output (DEC) : 
+	720
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0054_72
+Clock: 13625 (DEC)
+Execution Time: 622 (DEC)
+TAT: 5627 (DEC)
+Memory Executable segment (HEX): 
+	8100180C
+	0F021800
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	2302180C
+	8100180C
+	0F021800
+	42000044
+	23030A00
+	1B031818
+	07029818
+	07021804
+	85001808
+	43C00024
+	22001814
+	30001000
+	17029810
+	22001814
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000002
+	00000003
+	00000004
+	00000005
+	00000006
+	00000007
+	00000008
+	00000009
+	0000000a
+	0000000b
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000032
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	0000000A
+	00000001
+	00000004
+	00000000
+	0000000a
+	00000032
+	00000079
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	505
+	50
+---------------------------------------------------
+Job Id-> (005B_79) : ERROR(123): Incorrect Module format. Invalid instruction.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Running Job : 0058_76
+Ready queue : 
+0045_58 | 0059_77 | 004C_64 | 005C_80 | 005A_78 | 004A_62 | 
+Blocked queue : 
+
+Free Blocks: 
+	Addr 	|	Size(bytes)
+	  128	|	4
+	  240	|	32
+	  368	|	32
+	  840	|	108
+	 1076	|	48
+	 1316	|	16
+	 2132	|	48
+	 2244	|	384
+	 2756	|	13628
+Occupied Blocks: 
+	Addr 	|	Size(bytes)
+	   64	|	64
+	  132	|	108
+	  272	|	96
+	  400	|	440
+	  948	|	128
+	 1124	|	192
+	 1332	|	800
+	 2180	|	64
+	 2628	|	128
+Current degree of multiprogramming: 7
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------------------------------------------
+Job Id : 005A_78
+Clock: 15662 (DEC)
+Execution Time: 182 (DEC)
+TAT: 2167 (DEC)
+Memory Executable segment (HEX): 
+	28000800
+	0D001800
+	40800018
+	22001800
+	30001000
+	FC000000
+	23008800
+	07019804
+	07009808
+	0F009800
+	4080001C
+	2200180C
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	0000000a
+Memory Output segment (HEX): 
+	00000037
+Work Area segment (HEX): 
+	00000000
+	00000000
+	FFFFFFFF
+	00000037
+Disk Output (DEC) : 
+	55
+---------------------------------------------------
+Job Id-> (005D_81) : ERROR(135): Input request size and actual size missmatch.
+Job Id-> (005E_82) : ERROR(115): Invalid input value.
+User Job id:005F, System Job id:83, Loaded at: 15692(DEC) VTS
+---------------------------------------------------
+Job Id : 0059_77
+Clock: 15734 (DEC)
+Execution Time: 505 (DEC)
+TAT: 4046 (DEC)
+Memory Executable segment (HEX): 
+	81001810
+	23401800
+	8200980C
+	28000800
+	23408800
+	28000800
+	23800800
+	07401804
+	86001808
+	0F401A04
+	41000014
+	28000800
+	23410800
+	8200180C
+	23401800
+	07401804
+	0F411C00
+	42000058
+	86001808
+	0F401A04
+	4100003C
+	23401800
+	22001A00
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	ab000d00
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000007
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000001
+	00000004
+	0000003C
+	00000020
+	null
+	null
+	null
+	00000007
+	0000000a
+	ab000d00
+	null
+	null
+	null
+	null
+	00000002
+	00000001
+	00000003
+	00000004
+	00000005
+	0000001c
+	ab000d00
+	ce000f00
+	00d00b00
+	0ef00281
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	7
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0058_76
+Clock: 16348 (DEC)
+Execution Time: 622 (DEC)
+TAT: 4741 (DEC)
+Memory Executable segment (HEX): 
+	8100180C
+	0F021800
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	2302180C
+	8100180C
+	0F021800
+	42000044
+	23030A00
+	1B031818
+	07029818
+	07021804
+	85001808
+	43C00024
+	22001814
+	30001000
+	17029810
+	22001814
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	00000002
+	00000003
+	00000004
+	00000005
+	00000006
+	00000007
+	00000008
+	00000009
+	0000000a
+	0000000b
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000032
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	0000000A
+	00000001
+	00000004
+	00000000
+	0000000a
+	00000032
+	00000079
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	505
+	50
+---------------------------------------------------
+Job Id-> (0061_85) : ERROR(130): Improper JOB tag structure. Skipping till next JOB tag.
+Job Id-> (0062_86) : ERROR(136): Missing //END tag.
+ERROR(132): Input spool request must be of 2 chars.:  //JOB 0064 0G0 01
+ERROR(134): Input/Output request not in HEX.:  //JOB 0064 0G0 01
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Running Job : 004A_62
+Ready queue : 
+0045_58 | 005F_83 | 0060_84 | 004C_64 | 005C_80 | 
+Blocked queue : 
+
+Free Blocks: 
+	Addr 	|	Size(bytes)
+	  212	|	20
+	  368	|	32
+	  640	|	32
+	  904	|	44
+	 1012	|	320
+	 2004	|	176
+	 2628	|	13756
+Occupied Blocks: 
+	Addr 	|	Size(bytes)
+	   64	|	148
+	  232	|	136
+	  400	|	240
+	  672	|	232
+	  948	|	64
+	 1332	|	672
+	 2180	|	448
+Current degree of multiprogramming: 16
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------------------------------------------
+Job Id : 0045_58
+Clock: 16852 (DEC)
+Execution Time: 2325 (DEC)
+TAT: 12579 (DEC)
+Memory Executable segment (HEX): 
+	81001800
+	0F02180C
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	23021800
+	23029800
+	81001800
+	0F02180C
+	42000084
+	0F021800
+	4080007C
+	23029810
+	07029804
+	07021804
+	23031814
+	1B031808
+	82001818
+	0F02980C
+	42000028
+	0D800A00
+	4100006C
+	07029804
+	86001808
+	43C00050
+	23038A00
+	21400C00
+	2180181C
+	43C00060
+	85001808
+	43C00038
+	23021800
+	81001800
+	0F02180C
+	420000A8
+	22400A00
+	30001200
+	07021804
+	85001808
+	43C0008C
+	FC000000
+	null
+ Memory Input segment (HEX): 
+	00000000
+	00000001
+	00000001
+	00000003
+	00000005
+	00000006
+	00000008
+	0000000a
+	0000000b
+	0000000c
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	00000001
+	00000001
+	00000003
+	00000005
+	00000006
+	00000008
+	0000000a
+	0000000b
+	0000000c
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000001
+	00000004
+	0000000A
+	0000000a
+	0000000a
+	00000028
+	0000000c
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+	1
+	1
+	3
+	5
+	6
+	8
+	10
+	11
+	12
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 005C_80
+Clock: 17117 (DEC)
+Execution Time: 473 (DEC)
+TAT: 3477 (DEC)
+Memory Executable segment (HEX): 
+	81001820
+	23401A0C
+	28000800
+	23408800
+	0F401804
+	42000624
+	1B409A04
+	07401800
+	43C00010
+	00000000
+	2F401804
+	0F40180C
+	40800248
+	23411A04
+	17411808
+	22001A08
+	30001000
+	1B411808
+	2F409A08
+	CF010001
+	07401800
+	43C0002C
+	00000000
+	FC000000
+ Memory Input segment (HEX): 
+	fffffffc
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000001
+	00000002
+	00000000
+	00000007
+	00000008
+	00000000
+	00000000
+	00000000
+	00000010
+Disk Output (DEC) : 
+	2
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 004A_62
+Clock: 17565 (DEC)
+Execution Time: 2381 (DEC)
+TAT: 12435 (DEC)
+Memory Executable segment (HEX): 
+	81001800
+	0F02180C
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	23021800
+	23029800
+	81001800
+	0F02180C
+	42000084
+	0F021800
+	4080007C
+	23029810
+	07029804
+	07021804
+	23031814
+	1B031808
+	82001818
+	0F02980C
+	42000028
+	0D800A00
+	4100006C
+	07029804
+	86001808
+	43C00050
+	23038A00
+	21400C00
+	2180181C
+	43C00060
+	85001808
+	43C00038
+	23021800
+	81001800
+	0F02180C
+	420000A8
+	22400A00
+	30001200
+	07021804
+	85001808
+	43C0008C
+	FC000000
+	null
+ Memory Input segment (HEX): 
+	00000000
+	00000002
+	00000003
+	00000004
+	00000005
+	00000006
+	00000008
+	00000009
+	0000000a
+	0000000f
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	00000002
+	00000003
+	00000004
+	00000005
+	00000006
+	00000008
+	00000009
+	0000000a
+	0000000f
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000001
+	00000004
+	0000000A
+	0000000a
+	0000000a
+	00000028
+	0000000a
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+	2
+	3
+	4
+	5
+	6
+	8
+	9
+	10
+	15
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 0060_84
+Clock: 18040 (DEC)
+Execution Time: 575 (DEC)
+TAT: 2306 (DEC)
+Memory Executable segment (HEX): 
+	81001810
+	23401800
+	8200980C
+	28000800
+	23408800
+	28000800
+	23800800
+	07401804
+	86001808
+	0F401A04
+	41000014
+	28000800
+	23410800
+	8200180C
+	23401800
+	07401804
+	0F411C00
+	42000058
+	86001808
+	0F401A04
+	4100003C
+	23401800
+	22001A00
+	30001000
+	FC000000
+ Memory Input segment (HEX): 
+	ab000c00
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000001
+	00000004
+	0000003C
+	00000020
+	null
+	null
+	null
+	00000000
+	0000000a
+	ab000c00
+	null
+	null
+	null
+	null
+	00000002
+	00000001
+	00000003
+	00000004
+	00000005
+	0000001c
+	ab000d00
+	ce000f00
+	00d00b00
+	0ef00281
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+---------------------------------------------------
+---------------------------------------------------
+Job Id : 004C_64
+Clock: 18223 (DEC)
+Execution Time: 2325 (DEC)
+TAT: 12514 (DEC)
+Memory Executable segment (HEX): 
+	81001800
+	0F02180C
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	23021800
+	23029800
+	81001800
+	0F02180C
+	42000084
+	0F021800
+	4080007C
+	23029810
+	07029804
+	07021804
+	23031814
+	1B031808
+	82001818
+	0F02980C
+	42000028
+	0D800A00
+	4100006C
+	07029804
+	86001808
+	43C00050
+	23038A00
+	21400C00
+	2180181C
+	43C00060
+	85001808
+	43C00038
+	23021800
+	81001800
+	0F02180C
+	420000A8
+	22400A00
+	30001200
+	07021804
+	85001808
+	43C0008C
+	FC000000
+	null
+ Memory Input segment (HEX): 
+	00000000
+	00000001
+	00000001
+	00000003
+	00000005
+	00000006
+	00000008
+	0000000a
+	0000000b
+	0000000c
+	null
+	null
+	null
+	null
+	null
+	null
+Memory Output segment (HEX): 
+	00000000
+	00000001
+	00000001
+	00000003
+	00000005
+	00000006
+	00000008
+	0000000a
+	0000000b
+	0000000c
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	00000000
+	00000001
+	00000004
+	0000000A
+	0000000a
+	0000000a
+	00000028
+	0000000c
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	0
+	1
+	1
+	3
+	5
+	6
+	8
+	10
+	11
+	12
+---------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Running Job : 005F_83
+Ready queue : 
+
+Blocked queue : 
+
+Free Blocks: 
+	Addr 	|	Size(bytes)
+	   96	|	744
+	  904	|	1340
+	 2500	|	13884
+Occupied Blocks: 
+	Addr 	|	Size(bytes)
+	   64	|	32
+	  840	|	64
+	 2244	|	256
+Current degree of multiprogramming: 16
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------------------------------------------
+Job Id : 005F_83
+Clock: 18778 (DEC)
+Execution Time: 1157 (DEC)
+TAT: 3086 (DEC)
+Memory Executable segment (HEX): 
+	8100180C
+	0F021800
+	4200001C
+	28000A00
+	07021804
+	85001808
+	43C00004
+	2302180C
+	8100180C
+	0F021800
+	42000044
+	0F030A00
+	42000040
+	07021804
+	85001808
+	43C00024
+	23029810
+	22001814
+	CA000009
+	C2000009
+	30001000
+	FC000000
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+ Memory Input segment (HEX): 
+	4b11f0ef
+	7ffd35c8
+	e1d28976
+	b0123d47
+	fb29fe15
+	5598c07c
+	4e269e19
+	5467f474
+	cdeddd99
+	d872457f
+	ea1832e5
+	07eaa010
+	ffc96969
+	9bb0b27f
+	d5c1a355
+	8c05199f
+	c1e45e08
+	b0ed723b
+	e886c92d
+	26ce254e
+	1e3c5623
+	64b15c52
+	6950539d
+	4752cb06
+	25619961
+	7d57a812
+	287d1992
+	2d96ce2c
+	195ca746
+	b99a5976
+	null
+	null
+Memory Output segment (HEX): 
+	0000000B
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Work Area segment (HEX): 
+	0000001E
+	00000001
+	00000004
+	00000000
+	0000000b
+	0000000b
+	07EAA010
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+	null
+Disk Output (DEC) : 
+	11
+---------------------------------------------------
+Clock(vts) : 18778 (DEC)
+Jobs Processed : 48
+CPU Time (vts): (DEC)
+	Max :2381
+	Min :24
+	Avg :445
+Turn-around Time (vts): (DEC)
+	Max :12579
+	Min :553
+	Avg :3179
+Code Segment Size : (DEC) 
+	Max :176
+	Min :52
+	Avg :102
+Input Segment Size : (DEC)
+	Max :128
+	Min :4
+	Avg :49
+Output Segment Size : (DEC)
+	Max :64
+	Min :4
+	Avg :25
+Work Area Segment Size : (DEC)
+	Max :128
+	Min :16
+	Avg :54
+Memory Used by a job : (DEC)
+	Max :368
+	Min :80
+	Avg :231
+CPU Shots : (DEC)
+	Max :97
+	Min :4
+	Avg :19
+IO Request : (DEC)
+	Max :31
+	Min :1
+	Avg :7
+
+CPU idle time (vts) :101 (DEC)
+No. of jobs normally terminated: 38 (DEC)
+No. of jobs abnormally terminated: 10 (DEC)
+Time lost due to Abnormal jobs: 2006 (DEC)
+Time lost due to Infinite loop jobs: 0 (DEC)
+Infinite loop jobs: 

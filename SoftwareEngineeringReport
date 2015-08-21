@@ -1,0 +1,42 @@
+ Software Engineering Approach
+
+1. Initially, I read the given phase1 and phase2 document several times to understand the problem statement. 
+Also, discussed the problem statement with couple of my colleagues to have a clear picture and to make sure that everyone
+is on the same page. No ideas were exchanged.
+
+2. Once the problem statement was clear to me, I started framing a flowchart of the full application along with a pseudo 
+code on paper to get a brief idea of the flow. 
+
+3. The flowchart helped me to identify the major functionalities. I could frame the application into different
+modules and Sub modules Loader, Memory, Memory Manager, CPU, CPU Manager, Error Handler, ProcessManager, PCB, etc.
+
+4. More time and efforts were spent on organizing an appropriate connection between these modules and sub-modules.
+
+5. After getting a brief idea of how this application works on a paper, I began implementing it, on writing java code.
+
+6. The utility used in the development process is Eclipse IDE.
+
+7. Below is the detailed complexities of the simulation program
+	  a)  Total no. of line of Code : 1482
+		i) Declarations lines: 61
+		ii) Comments lines: 350
+        	iii) Executable statements: 911
+		iv) Blanks lines: 160
+          b) Number of decisions: 111 
+	  c) Number of methods: 33
+	  d) Number of classes: 9
+
+8. Below is the approximate break down of time spend in each phase:
+	a. Design: 7-8 days
+	b. Coding: 7-8 days
+	c. Testing: 3-4 days
+
+9. The simulation serves only the basic purpose of the Operating System. This simulation executes all the OpCodes provided they are correct. 
+However, this simulation can be improvised further to catch errors at granular level.
+
+
+10. I have build this OS using Java language, for the following reasons:
+	a. This OS implementation requires expansion in coming phases, therefore the current stimulation must be scalable and modular.
+	   Java provides all these features with ease if implemented properly.
+	b. Most importantly, I am comfortable in writing programs in Java; therefore to implement this program within a given time-frame, there was little scope of experimenting with other languages.
+
